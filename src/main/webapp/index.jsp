@@ -8,7 +8,7 @@
 			name="emailname" value="abc@yahoo.com"><br> <label
 			for="lblpass">Password:</label> <br> <input type="password"
 			id="passid" name="passname" value="abcd"><br> <br>
-		<br> <a href="page2.html">Go to page2!!! Abhinandan AAAA</a><br><br>
+		<br> <a href="page2.html">Go to page2!!! Abhinandan AAAA BBBBB</a><br><br>
 		<input type="submit" value="Submit"><br>
 		
 	</form>
