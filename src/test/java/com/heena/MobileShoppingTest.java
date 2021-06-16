@@ -11,14 +11,15 @@ public class MobileShoppingTest {
 	    private WebDriver driver;		
 		@Test				
 		public void testEasy() {	
-			System.setProperty("webdriver.chrome.driver", "E:\\HeenaWork\\chromedriver.exe");
+			
 
 			driver.get("http://demo.guru99.com/test/guru99home/");  
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Demo Guru99 Page")); 		
 		}	
 		@BeforeTest
-		public void beforeTest() {	
+		public void beforeTest() {
+			System.setProperty("webdriver.chrome.driver", "E:\\HeenaWork\\chromedriver.exe");
 		    driver = new ChromeDriver();  
 		}		
 		@AfterTest
